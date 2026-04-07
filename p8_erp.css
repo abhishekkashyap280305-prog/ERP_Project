@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: border-box;
+}
+
+header{
+    position: sticky;
+    
+    top: 0;
+}
+.navbar{
+    height: 64px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(8, 44, 142),rgb(35, 88, 158),rgb(23, 111, 174)) ;
+}
+
+.nav-campuserp {
+    font: 20px "Segoe UI", Tahoma, sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+
+.nav-bar2{
+    margin: 15px;
+   
+    font-family: Arial;
+    border: border-box;
+    height: 35px;
+    width: 950px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+.oo:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    padding: 8px;
+}
+.nb2{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.navbar3{
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+
+.container {
+    display: flex;
+    
+}
+
+.box {
+    
+    margin: 15px;
+    padding: 1px;
+    border-radius: 5px;
+    height: 105px;
+    width: 329px;
+
+}
+
+
+div1{
+    background-color: #1E88E5;
+}
+
+div2{
+    background-color: #43A047;
+}
+
+div3{
+    background-color: #FBC02D;
+}
+
+div4{
+    background-color: #E53935;
+}
+
+.line{
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.185);
+    
+}
+
+.VD{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.i{
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+.mf{
+    font-size: 15px;
+    color: white;
+    margin-left: 17px;
+    margin-bottom: 25px;
+}
+
+
+.navbar4{
+    height: 65px;
+    background-color: rgb(255, 204, 0);
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 40px;
+}
+
+h2{
+    margin-left: 500px;
+}
+
+
+.subbox1{
+    flex: 1;
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px;
+    width: 400px;
+}
+.subbox2{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-left: 30px;
+    height: 160px;
+    width: 400px;
+}
+
+
+.box1{
+    margin-left: 10px;
+    margin-top: -15px;
+    padding: 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box2{
+    margin-left: -15px;
+    margin-top: 17px;
+    padding: 1px;
+    border-radius: 5px;
+    height: 720px;
+    width: 750px;
+    background-color: white;
+}
+.line1{
+    height: 2px;
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 204, 0);
+}
+
+table{
+    border:  solid lightgrey;
+    border-collapse: collapse;
+    height: 70px;
+    width: 350px;
+}
+
+
+.subbox3{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 160px;
+    width: 400px;
+}
+
+.line2{
+    height: 2px;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 204, 0);
+}
+hr{
+    border-top: 1px solid lightgrey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mentorline{
+    height: 2px;
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 204, 0);
+}
+
+button{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(255, 204, 0);
+    border: 1px solid ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.DA{
+    margin-left: -5px;
+    height: 40px;
+    width: 160px;
+    background-color: transparent;
+    border: 1px ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ button:active{
+    background-color: transparent;
+ }
+
+ .DA:active{
+    background-color: transparent;
+ }
+
+ .navbar5{
+    background-color: rgb(8, 44, 142);
+    height: 32px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+ }
